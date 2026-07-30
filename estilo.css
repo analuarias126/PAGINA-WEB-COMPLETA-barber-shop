@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+}
+
+.logo h1{
+    color: #d4af37;
+    font-size: 38px;
+}
+
+.logo p{
+    margin-top: 5px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #d4af37;
+}
+
+.banner{
+    background-image: url("https://picsum.photos/1600/700?barber");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.textoBanner{
+    width: 45%;
+    margin-left: 80px;
+    color: white;
+}
+
+.textoBanner h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.textoBanner p{
+    font-size: 22px;
+    margin-bottom: 35px;
+    line-height: 35px;
+}
+
+.textoBanner a{
+    text-decoration: none;
+    background-color: #d4af37;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentacion{
+    background-color: white;
+    width: 90%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.presentacion h2{
+    color: #111;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.presentacion p{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+.contenedorProductos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.producto{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+.producto img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.producto h3{
+    margin: 20px;
+}
+
+.producto p{
+    margin: 20px;
+    line-height: 25px;
+}
+
+.producto h4{
+    margin: 20px;
+    color: #d4af37;
+    font-size: 28px;
+}
+
+.producto a{
+    display: block;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.marcas div{
+    background-color: #111;
+    color: white;
+    padding: 25px 40px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+.beneficios{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contenedorBeneficios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.contenedorBeneficios article{
+    width: 300px;
+    text-align: center;
+}
+
+.contenedorBeneficios h3{
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.contenedorBeneficios p{
+    line-height: 28px;
+}
+
+#nosotros{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#nosotros p{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonios{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contenedorTestimonios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contenedorTestimonios article{
+    width: 300px;
+    background-color: #f7f7f7;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contenedorTestimonios h3{
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.contenedorTestimonios p{
+    line-height: 28px;
+}
+
+#contacto{
+    background-color: #111;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contacto h2{
+    color: #d4af37;
+}
+
+#contacto p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h2{
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin: 10px;
+}
+
+.producto:hover{
+    transform: translateY(-8px);
+    transition: .3s;
+}
+
+.producto a:hover{
+    background-color: #d4af37;
+    color: black;
+}
+
+.marcas div:hover{
+    background-color: #d4af37;
+    color: black;
+}
